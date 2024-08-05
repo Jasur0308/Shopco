@@ -1,0 +1,44 @@
+.new {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #0000001A;
+
+}
+
+.new__title {
+    font-family: Integral CF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+
+.new__cards {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.new__link__wrapper {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.new__link {
+    text-align: center;;
+    max-width: 218px;
+    width: 100%;
+    padding: 16px 54px;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+}

@@ -1,0 +1,12 @@
+.brands {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 42px 0;
+    background: #000000;
+}
+
+.brands__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

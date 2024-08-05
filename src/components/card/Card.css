@@ -1,0 +1,47 @@
+.new__card {
+    max-width: 295px;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    transition: .3s;
+}
+
+.new__card:hover {
+    transform: scale(1.1);
+}
+
+.new__card__image {
+    border-bottom: 1px solid #0000001A;
+}
+
+.new__card__title {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #000000;
+}
+
+.new__card__rating {
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000000;
+}
+
+.new__card__rating span {
+    color: #00000099;
+}
+
+.new__card__price {
+    font-family: Satoshi;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #000000;
+}

@@ -1,0 +1,24 @@
+.comment {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.comment__wrapper{
+    margin-top: 80px;
+}
+
+.comment__title {
+    font-family: Integral CF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    color: #000000;
+}
+
+.comment__cards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

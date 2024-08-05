@@ -1,0 +1,219 @@
+.contact {
+    margin: 0 auto;
+    background: #04364A;
+    padding: 100px 50px;
+}
+
+.contact__wrappper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.contact__left {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.contact__title {
+    font-family: Kodchasan;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.contact__title span {
+    color: #64CCC5;
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.contact__info__link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact__info__image {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__info__link span {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contact__info__link span:hover {
+    color: #64CCC5;
+}
+
+.contact__left__webs {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact__web__link {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__input__form {
+    max-width: 632px;
+    width: 100%;
+    padding: 50px 35px;
+    background: #FFFEFE;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.jobs {
+    max-width: 488px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.jobs__title {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #176B87;
+}
+
+.jobs__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.job {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #787878;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #787878;
+    transition: .2s;
+}
+
+.job:hover {
+    color: #FFFFFF;
+    background: #176B87;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.name {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #176B87;
+}
+
+.username__input {
+    width: 100%;
+    border: none;
+    padding: 12px 16px;
+    border-bottom: 2px solid #176B87;
+    outline: none;
+}
+
+::placeholder {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #787878;
+}
+
+.user__email {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #CDCDCD;
+}
+
+.user__title {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #CDCDCD;
+}
+
+.user__input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    border-bottom: 2px solid #CDCDCD;
+}
+
+.user__input::placeholder {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #959595;
+}
+
+.user__textarea {
+    width: 100%;
+    padding: 12px 16px;
+    outline: none;
+    border-radius: 12px;
+    border: 2px solid #CDCDCD;
+}
+
+.form__link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #176B87;
+    border-radius: 50px;
+    padding: 16px 72px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.form__link:hover {
+    background: #FFFFFF;
+    color: #176B87;
+    border: 1px solid #176B87;
+}

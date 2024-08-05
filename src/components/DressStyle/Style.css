@@ -1,0 +1,42 @@
+.style {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.style__wrapper {
+    background: #F0F0F0;
+    border-radius: 40px;
+    padding: 75px 64px;
+}
+
+.style__title {
+    font-family: Integral CF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+
+.style__images {
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.style__images img {
+    border-radius: 20px;
+}
+
+.style__party {
+    max-width: 684px;
+    width: 100%;
+}
+
+.style__gym {
+    max-width: 408px;
+    width: 100%;
+}

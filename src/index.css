@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/fonts/satoshi/Satoshi-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/fonts/satoshi/Satoshi-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/fonts/satoshi/Satoshi-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Integral CF';
+    src: url('./assets/fonts/Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-bold.woff2') format('woff2');
+}
